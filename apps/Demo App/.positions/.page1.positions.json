@@ -6,11 +6,18 @@
     "width": 2
   },
   "image1": {
-    "row": 12.8,
+    "row": 13,
+    "col": 2
+  },
+  "image2": {
+    "row": 13,
+    "col": 5
+  },
+  "image3": {
     "col": 2
   },
   "table1": {
-    "row": 4.8,
+    "row": 5,
     "col": 2,
     "height": 8,
     "width": 8
