@@ -1,2 +1,5 @@
 version: 1.0.0
 name: prod
+apps:
+  - uuid: 6e69709c-198c-11f1-835a-73d4870770bb
+    release: 1.0.0
