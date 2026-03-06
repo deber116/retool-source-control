@@ -176,6 +176,12 @@
       horizontalAlign="center"
       src="https://picsum.photos/id/1025/800/600"
     />
+    <Image
+      id="image2"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="https://picsum.photos/id/1025/800/600"
+    />
     <Button id="button1" text="Button" />
   </Frame>
 </Screen>
