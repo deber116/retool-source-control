@@ -17,6 +17,12 @@
     padding="8px 12px"
     type="main"
   >
+    <Image
+      id="image3"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="https://picsum.photos/id/1025/800/600"
+    />
     <Table
       id="table1"
       cellSelection="none"
