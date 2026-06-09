@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "retool": {
+    "app": {
+      "uuid": "de3d87e6-6397-11f1-8ad2-d34f76511928",
+      "name": "Cute Dogs",
+      "resourceReferencesByFile": {},
+      "appIdentifier": "cute-dogs"
+    }
+  }
+}
