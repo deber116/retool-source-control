@@ -4,7 +4,6 @@
     "app": {
       "uuid": "5516e048-801b-11f1-8c77-17b7f1eda45a",
       "name": "Example Dashboard",
-      "resourceReferencesByFile": {},
       "appIdentifier": "example-dashboard"
     }
   }
