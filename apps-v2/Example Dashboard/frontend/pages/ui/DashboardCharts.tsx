@@ -13,6 +13,7 @@ import {
 } from 'recharts'
 import { Card, CardContent, CardHeader, CardTitle } from '../../lib/shadcn/card'
 import type { ChannelPoint, RevenuePoint } from '../data/mockData'
+import './chartColors.css'
 
 const CHANNEL_COLORS = [
   'hsl(var(--chart-1))',
@@ -32,12 +33,12 @@ export function RevenueChart({ data }: { data: RevenuePoint[] }) {
           <AreaChart data={data} margin={{ left: -12, right: 8, top: 4 }}>
             <defs>
               <linearGradient id="revFill" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor="hsl(var(--chart-1))" stopOpacity={0.4} />
-                <stop offset="95%" stopColor="hsl(var(--chart-1))" stopOpacity={0} />
+                <stop offset="5%" stopColor="hsl(var(--series-revenue))" stopOpacity={0.4} />
+                <stop offset="95%" stopColor="hsl(var(--series-revenue))" stopOpacity={0} />
               </linearGradient>
               <linearGradient id="expFill" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor="hsl(var(--chart-3))" stopOpacity={0.3} />
-                <stop offset="95%" stopColor="hsl(var(--chart-3))" stopOpacity={0} />
+                <stop offset="5%" stopColor="hsl(var(--series-expenses))" stopOpacity={0.3} />
+                <stop offset="95%" stopColor="hsl(var(--series-expenses))" stopOpacity={0} />
               </linearGradient>
             </defs>
             <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
@@ -60,14 +61,14 @@ export function RevenueChart({ data }: { data: RevenuePoint[] }) {
             <Area
               type="monotone"
               dataKey="revenue"
-              stroke="hsl(var(--chart-1))"
+              stroke="hsl(var(--series-revenue))"
               strokeWidth={2}
               fill="url(#revFill)"
             />
             <Area
               type="monotone"
               dataKey="expenses"
-              stroke="hsl(var(--chart-3))"
+              stroke="hsl(var(--series-expenses))"
               strokeWidth={2}
               fill="url(#expFill)"
             />

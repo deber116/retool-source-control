@@ -1,0 +1,9 @@
+:root {
+  --series-revenue: 217 91% 60%;
+  --series-expenses: 25 95% 53%;
+}
+
+.dark {
+  --series-revenue: 213 94% 68%;
+  --series-expenses: 32 97% 62%;
+}
