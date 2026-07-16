@@ -16,10 +16,10 @@ import type { ChannelPoint, RevenuePoint } from '../data/mockData'
 import './chartColors.css'
 
 const CHANNEL_COLORS = [
-  'hsl(var(--chart-1))',
-  'hsl(var(--chart-2))',
-  'hsl(var(--chart-3))',
-  'hsl(var(--chart-4))',
+  'hsl(var(--series-channel-1))',
+  'hsl(var(--series-channel-2))',
+  'hsl(var(--series-channel-3))',
+  'hsl(var(--series-channel-4))',
 ]
 
 export function RevenueChart({ data }: { data: RevenuePoint[] }) {

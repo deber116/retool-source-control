@@ -1,9 +1,17 @@
 :root {
   --series-revenue: 217 91% 60%;
   --series-expenses: 25 95% 53%;
+  --series-channel-1: 217 91% 60%;
+  --series-channel-2: 160 84% 39%;
+  --series-channel-3: 262 83% 58%;
+  --series-channel-4: 25 95% 53%;
 }
 
 .dark {
   --series-revenue: 213 94% 68%;
   --series-expenses: 32 97% 62%;
+  --series-channel-1: 213 94% 68%;
+  --series-channel-2: 158 64% 52%;
+  --series-channel-3: 258 90% 76%;
+  --series-channel-4: 32 97% 62%;
 }
