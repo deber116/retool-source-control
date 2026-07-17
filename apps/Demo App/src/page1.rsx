@@ -17,12 +17,6 @@
     padding="8px 12px"
     type="main"
   >
-    <Image
-      id="image3"
-      heightType="fixed"
-      horizontalAlign="center"
-      src="https://picsum.photos/id/1025/800/600"
-    />
     <Table
       id="table1"
       cellSelection="none"
@@ -188,6 +182,17 @@
       horizontalAlign="center"
       src="https://picsum.photos/id/1025/800/600"
     />
-    <Button id="button1" text="Button" />
+    <Button id="button1" text="Button">
+      <Event
+        id="dae997da"
+        event="click"
+        method="trigger"
+        params={{}}
+        pluginId="DemoWorkflow"
+        type="datasource"
+        waitMs="0"
+        waitType="debounce"
+      />
+    </Button>
   </Frame>
 </Screen>
