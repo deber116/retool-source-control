@@ -3,7 +3,8 @@
   "version": "43.0.9",
   "pageUuid": "6e69709c-198c-11f1-835a-73d4870770bb",
   "appTemplate": {
+    "pubAppDecoupledQueriesDisabled": null,
     "rootScreen": "page1",
-    "version": "3.352.0"
+    "version": "4.26.0"
   }
 }
